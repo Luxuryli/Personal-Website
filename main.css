@@ -54,8 +54,9 @@ nav {
 .right-nav a {
     display: flex;
     text-decoration: none;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     color: gold;
+    font-size: 16px;
 }
 
 main {
@@ -254,7 +255,8 @@ footer {
     justify-content: center;
     align-items: center;
     color: gold;
-
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
 }
 
 .right-foot {
@@ -315,8 +317,10 @@ footer {
     .right-nav a {
         display: flex;
         text-decoration: none;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
         color: gold;
+
     }
 
     main {
@@ -518,7 +522,8 @@ footer {
         justify-content: center;
         align-items: center;
         color: gold;
-
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
     }
 
     .right-foot {
@@ -572,7 +577,7 @@ footer {
 
     .right-nav {
         display: flex;
-        width: 35%;
+        width: 40%;
         align-items: center;
         justify-content: space-between;
     }
@@ -580,7 +585,7 @@ footer {
     .right-nav a {
         display: flex;
         text-decoration: none;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-family: Arial, Helvetica, sans-serif;
         color: gold;
         font-size: 14px;
     }
@@ -639,7 +644,7 @@ footer {
 
     .name {
         color: aliceblue;
-        font-size: 70px;
+        font-size: 55px;
         font-family: 'Beiruti';
         font-weight: 200;
         width: 100%;
@@ -648,7 +653,7 @@ footer {
 
     .front {
         color: gold;
-        font-size: 70px;
+        font-size: 55px;
         font-family: 'Beiruti';
         font-weight: 200;
     }
@@ -719,6 +724,8 @@ footer {
     ul {
         color: aliceblue;
         line-height: 1.5rem;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
     }
 
     .c-goals {
@@ -786,6 +793,7 @@ footer {
         align-items: center;
         color: gold;
         font-size: 14px;
+        font-family: Arial, Helvetica, sans-serif;
     }
 
     .right-foot {
@@ -926,7 +934,7 @@ footer {
         font-size: 14px;
         width: 85%;
         margin: 0;
-        padding: 10px;
+        padding: 0px;
         font-family: Arial, Helvetica, sans-serif;
         line-height: 1.7rem;
         width: 100%;
@@ -958,7 +966,7 @@ footer {
     .learn {
         display: flex;
         color: aliceblue;
-        font-size: 16px;
+        font-size: 14px;
         font-family: Arial, Helvetica, sans-serif;
         line-height: 1.7rem;
     }
@@ -987,6 +995,8 @@ footer {
     ul {
         color: aliceblue;
         line-height: 1.5rem;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
     }
 
     .c-goals {
@@ -1054,6 +1064,7 @@ footer {
         align-items: center;
         color: gold;
         font-size: 12px;
+        font-family: Arial, Helvetica, sans-serif;
     }
 
     .right-foot {
@@ -1528,6 +1539,7 @@ footer {
         color: aliceblue;
         line-height: 1.5rem;
         font-size: 12px;
+        font-family: Arial, Helvetica, sans-serif;
     }
 
     .c-goals {
@@ -1594,6 +1606,7 @@ footer {
         align-items: center;
         color: gold;
         font-size: 10px;
+        font-family: Arial, Helvetica, sans-serif;
     }
 
     .right-foot {
