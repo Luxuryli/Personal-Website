@@ -15,9 +15,11 @@ body {
 
 header {
     display: flex;
+    position: fixed;
     width: 100%;
-    padding: 20px 120px;
+    padding: 50px 120px;
     height: 60px;
+    background-color: black;
 }
 
 
@@ -37,7 +39,7 @@ nav {
 
 .left-nav h1 {
     display: flex;
-    font-size: 50px;
+    font-size: 45px;
     font-family: 'Lobster';
     font-weight: 900;
     color: gold;
@@ -45,7 +47,7 @@ nav {
 
 .right-nav {
     display: flex;
-    width: 20%;
+    width: 23%;
     align-items: center;
     justify-content: space-between;
 }
@@ -72,6 +74,7 @@ main {
     align-items: center;
     width: 100%;
     padding-bottom: 250px;
+    margin-top: 50px;
 }
 
 
@@ -110,7 +113,7 @@ main {
 
 .name {
     color: aliceblue;
-    font-size: 150px;
+    font-size: 120px;
     font-family: 'Beiruti';
     font-weight: 200;
     width: 73.5%;
@@ -120,7 +123,7 @@ main {
 
 .front {
     color: gold;
-    font-size: 130px;
+    font-size: 120px;
     font-family: 'Beiruti';
     font-weight: 200;
 }
@@ -210,7 +213,7 @@ ul {
 footer {
     display: flex;
     width: 100%;
-    padding: 0px 120px 0px 120px;
+    padding: 5px 120px;
 }
 
 .footnav {
@@ -218,18 +221,21 @@ footer {
     align-items: center;
     justify-content: space-between;
     width: 100%;
+
 }
 
 .left-foot {
     display: flex;
+
 }
 
-.left-foot h1 {
+.left-foot h2 {
     display: flex;
-    font-size: 50px;
+    font-size: 45px;
     font-family: 'Lobster';
     font-weight: 900;
     color: gold;
+    margin: 0;
 }
 
 .middle-foot {
@@ -237,15 +243,2074 @@ footer {
     justify-content: center;
     align-items: center;
     color: gold;
+
 }
 
 .right-foot {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 7%;
 }
 
-.right-foot a img {
-    display: flex;
-    width: 55%;
+@media screen and (max-width: 1440px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+        height: 100vh;
+        background-color: black;
+    }
+
+    header {
+        display: flex;
+        position: fixed;
+        width: 100%;
+        padding: 50px 100px;
+        height: 60px;
+        background-color: black;
+    }
+
+
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .left-nav {
+        display: flex;
+        width: 30%;
+        align-items: center;
+        justify-content: left;
+    }
+
+    .left-nav h1 {
+        display: flex;
+        font-size: 45px;
+        font-family: 'Lobster';
+        font-weight: 900;
+        color: gold;
+    }
+
+    .right-nav {
+        display: flex;
+        width: 28%;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .right-nav a {
+        display: flex;
+        text-decoration: none;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: gold;
+        font-size: 14px;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        padding: 100px;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .cont1 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding-bottom: 250px;
+    }
+
+
+    .left-grid {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .slackimg {
+        display: flex;
+        width: auto;
+        max-width: 100%;
+    }
+
+    .slackdetails {
+        font-size: 16px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: aliceblue;
+    }
+
+    .right-grid {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .intro {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .name {
+        color: aliceblue;
+        font-size: 70px;
+        font-family: 'Beiruti';
+        font-weight: 200;
+        width: 65%;
+        margin: 0;
+
+    }
+
+    .front {
+        color: gold;
+        font-size: 70px;
+        font-family: 'Beiruti';
+        font-weight: 200;
+    }
+
+    .goals {
+        color: white;
+        font-size: 18px;
+        font-family: 'Beiruti';
+        width: 65%;
+        margin: 0;
+        padding: 10px;
+    }
+
+    .cont2 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .l-goals {
+        display: flex;
+        flex-direction: column;
+    }
+
+    h4 {
+        display: flex;
+        color: aliceblue;
+        font-size: 30px;
+        font-family: 'Beiruti';
+        margin: 0;
+    }
+
+    .learn {
+        display: flex;
+        color: aliceblue;
+        font-size: 14px;
+    }
+
+    .goals-list {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .p-goals {
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+        font-size: 14px;
+    }
+
+    .personal {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    ul {
+        color: aliceblue;
+    }
+
+    .c-goals {
+        display: flex;
+        flex-direction: column;
+        width: 35%;
+        font-size: 14px;
+    }
+
+    .career {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .pr-goals {
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+        font-size: 14px;
+    }
+
+    .project-list {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    footer {
+        display: flex;
+        width: 100%;
+        padding: 5px 120px;
+    }
+
+    .footnav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+
+    }
+
+    .left-foot {
+        display: flex;
+
+    }
+
+    .left-foot h2 {
+        display: flex;
+        font-size: 45px;
+        font-family: 'Lobster';
+        font-weight: 900;
+        color: gold;
+        margin: 0;
+    }
+
+    .middle-foot {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: gold;
+
+    }
+
+    .right-foot {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 10%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+        height: 100vh;
+        background-color: black;
+    }
+
+    header {
+        display: flex;
+        position: fixed;
+        width: 100%;
+        padding: 50px 100px;
+        height: 60px;
+        background-color: black;
+    }
+
+
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .left-nav {
+        display: flex;
+        width: 30%;
+        align-items: center;
+        justify-content: left;
+    }
+
+    .left-nav h1 {
+        display: flex;
+        font-size: 35px;
+        font-family: 'Lobster';
+        font-weight: 900;
+        color: gold;
+    }
+
+    .right-nav {
+        display: flex;
+        width: 30%;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .right-nav a {
+        display: flex;
+        text-decoration: none;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: gold;
+        font-size: 14px;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        padding: 100px;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .cont1 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding-bottom: 250px;
+    }
+
+
+    .left-grid {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .slackimg {
+        display: flex;
+        width: auto;
+        max-width: 100%;
+    }
+
+    .slackdetails {
+        font-size: 16px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: aliceblue;
+    }
+
+    .right-grid {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .intro {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .name {
+        color: aliceblue;
+        font-size: 80px;
+        font-family: 'Beiruti';
+        font-weight: 200;
+        width: 85%;
+        margin: 0;
+
+    }
+
+    .front {
+        color: gold;
+        font-size: 80px;
+        font-family: 'Beiruti';
+        font-weight: 200;
+    }
+
+    .goals {
+        color: white;
+        font-size: 18px;
+        font-family: 'Beiruti';
+        width: 85%;
+        margin: 0;
+        padding: 10px;
+    }
+
+    .cont2 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .l-goals {
+        display: flex;
+        flex-direction: column;
+    }
+
+    h4 {
+        display: flex;
+        color: aliceblue;
+        font-size: 26px;
+        font-family: 'Beiruti';
+        margin: 0;
+    }
+
+    .learn {
+        display: flex;
+        color: aliceblue;
+        font-size: 14px;
+    }
+
+    .goals-list {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .p-goals {
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+        font-size: 14px;
+    }
+
+    .personal {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    ul {
+        color: aliceblue;
+    }
+
+    .c-goals {
+        display: flex;
+        flex-direction: column;
+        width: 35%;
+        font-size: 14px;
+    }
+
+    .career {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .pr-goals {
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+        font-size: 14px;
+    }
+
+    .project-list {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    footer {
+        display: flex;
+        width: 100%;
+        padding: 5px 120px;
+    }
+
+    .footnav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+
+    }
+
+    .left-foot {
+        display: flex;
+
+    }
+
+    .left-foot h2 {
+        display: flex;
+        font-size: 35px;
+        font-family: 'Lobster';
+        font-weight: 900;
+        color: gold;
+        margin: 0;
+    }
+
+    .middle-foot {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: gold;
+        font-size: 14px;
+    }
+
+    .right-foot {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 10%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+        height: 100vh;
+        background-color: black;
+    }
+
+    header {
+        display: flex;
+        position: fixed;
+        width: 100%;
+        padding: 50px 100px;
+        height: 60px;
+        background-color: black;
+    }
+
+
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .left-nav {
+        display: flex;
+        width: 30%;
+        align-items: center;
+        justify-content: left;
+    }
+
+    .left-nav h1 {
+        display: flex;
+        font-size: 35px;
+        font-family: 'Lobster';
+        font-weight: 900;
+        color: gold;
+    }
+
+    .right-nav {
+        display: flex;
+        width: 40%;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .right-nav a {
+        display: flex;
+        text-decoration: none;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: gold;
+        font-size: 14px;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        padding: 100px;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .cont1 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding-bottom: 250px;
+    }
+
+
+    .left-grid {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .slackimg {
+        display: flex;
+        width: auto;
+        max-width: 100%;
+    }
+
+    .slackdetails {
+        font-size: 16px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: aliceblue;
+    }
+
+    .right-grid {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .intro {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .name {
+        color: aliceblue;
+        font-size: 60px;
+        font-family: 'Beiruti';
+        font-weight: 200;
+        width: 90%;
+        margin: 0;
+
+    }
+
+    .front {
+        color: gold;
+        font-size: 60px;
+        font-family: 'Beiruti';
+        font-weight: 200;
+    }
+
+    .goals {
+        color: white;
+        font-size: 16px;
+        font-family: 'Beiruti';
+        width: 90%;
+        margin: 0;
+        padding: 10px;
+    }
+
+    .cont2 {
+        display: grid;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .l-goals {
+        display: flex;
+        flex-direction: column;
+    }
+
+    h4 {
+        display: flex;
+        color: aliceblue;
+        font-size: 26px;
+        font-family: 'Beiruti';
+        margin: 0;
+    }
+
+    .learn {
+        display: flex;
+        color: aliceblue;
+        font-size: 14px;
+    }
+
+    .goals-list {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .p-goals {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .personal {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    ul {
+        color: aliceblue;
+    }
+
+    .c-goals {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .career {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .pr-goals {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .project-list {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    footer {
+        display: flex;
+        width: 100%;
+        padding: 5px 120px;
+    }
+
+    .footnav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+
+    }
+
+    .left-foot {
+        display: flex;
+
+    }
+
+    .left-foot h2 {
+        display: flex;
+        font-size: 35px;
+        font-family: 'Lobster';
+        font-weight: 900;
+        color: gold;
+        margin: 0;
+    }
+
+    .middle-foot {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: gold;
+        font-size: 14px;
+    }
+
+    .right-foot {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 15%;
+    }
+
+}
+
+@media screen and (max-width: 834px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+        height: 100vh;
+        background-color: black;
+    }
+
+    header {
+        display: flex;
+        position: fixed;
+        width: 100%;
+        padding: 50px 100px;
+        height: 60px;
+        background-color: black;
+    }
+
+
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .left-nav {
+        display: flex;
+        width: 30%;
+        align-items: center;
+        justify-content: left;
+    }
+
+    .left-nav h1 {
+        display: flex;
+        font-size: 35px;
+        font-family: 'Lobster';
+        font-weight: 900;
+        color: gold;
+    }
+
+    .right-nav {
+        display: flex;
+        width: 45%;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .right-nav a {
+        display: flex;
+        text-decoration: none;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: gold;
+        font-size: 14px;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        padding: 100px;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .cont1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding-bottom: 250px;
+    }
+
+
+    .left-grid {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .slackimg {
+        display: flex;
+        width: auto;
+        max-width: 100%;
+    }
+
+    .slackdetails {
+        font-size: 16px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: aliceblue;
+    }
+
+    .right-grid {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .intro {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .name {
+        color: aliceblue;
+        font-size: 50px;
+        font-family: 'Beiruti';
+        font-weight: 200;
+        width: 90%;
+        margin: 0;
+
+    }
+
+    .front {
+        color: gold;
+        font-size: 50px;
+        font-family: 'Beiruti';
+        font-weight: 200;
+    }
+
+    .goals {
+        color: white;
+        font-size: 16px;
+        font-family: 'Beiruti';
+        width: 90%;
+        margin: 0;
+        padding: 10px;
+    }
+
+    .cont2 {
+        display: grid;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .l-goals {
+        display: flex;
+        flex-direction: column;
+    }
+
+    h4 {
+        display: flex;
+        color: aliceblue;
+        font-size: 26px;
+        font-family: 'Beiruti';
+        margin: 0;
+    }
+
+    .learn {
+        display: flex;
+        color: aliceblue;
+        font-size: 14px;
+    }
+
+    .goals-list {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .p-goals {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .personal {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    ul {
+        color: aliceblue;
+    }
+
+    .c-goals {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .career {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .pr-goals {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .project-list {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 5px 120px;
+    }
+
+    .footnav {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+        width: 100%;
+
+    }
+
+    .left-foot {
+        display: flex;
+
+    }
+
+    .left-foot h2 {
+        display: flex;
+        font-size: 35px;
+        font-family: 'Lobster';
+        font-weight: 900;
+        color: gold;
+        margin: 0;
+    }
+
+    .middle-foot {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: gold;
+        font-size: 14px;
+    }
+
+    .right-foot {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 18%;
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+        height: 100vh;
+        background-color: black;
+    }
+
+    header {
+        display: flex;
+        position: fixed;
+        width: 100%;
+        padding: 50px 70px;
+        height: 60px;
+        background-color: black;
+    }
+
+
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .left-nav {
+        display: flex;
+        width: 30%;
+        align-items: center;
+        justify-content: left;
+    }
+
+    .left-nav h1 {
+        display: flex;
+        font-size: 35px;
+        font-family: 'Lobster';
+        font-weight: 900;
+        color: gold;
+    }
+
+    .right-nav {
+        display: flex;
+        width: 55%;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .right-nav a {
+        display: flex;
+        text-decoration: none;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: gold;
+        font-size: 14px;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        padding: 70px;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .cont1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding-bottom: 250px;
+    }
+
+
+    .left-grid {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .slackimg {
+        display: flex;
+        width: auto;
+        max-width: 100%;
+    }
+
+    .slackdetails {
+        font-size: 16px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: aliceblue;
+    }
+
+    .right-grid {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .intro {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .name {
+        color: aliceblue;
+        font-size: 50px;
+        font-family: 'Beiruti';
+        font-weight: 200;
+        width: 100%;
+        margin: 0;
+
+    }
+
+    .front {
+        color: gold;
+        font-size: 50px;
+        font-family: 'Beiruti';
+        font-weight: 200;
+    }
+
+    .goals {
+        color: white;
+        font-size: 16px;
+        font-family: 'Beiruti';
+        width: 100%;
+        margin: 0;
+        padding: 10px;
+    }
+
+    .cont2 {
+        display: grid;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .l-goals {
+        display: flex;
+        flex-direction: column;
+    }
+
+    h4 {
+        display: flex;
+        color: aliceblue;
+        font-size: 26px;
+        font-family: 'Beiruti';
+        margin: 0;
+    }
+
+    .learn {
+        display: flex;
+        color: aliceblue;
+        font-size: 14px;
+    }
+
+    .goals-list {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .p-goals {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .personal {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    ul {
+        color: aliceblue;
+    }
+
+    .c-goals {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .career {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .pr-goals {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .project-list {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 5px 70px;
+    }
+
+    .footnav {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+        width: 100%;
+
+    }
+
+    .left-foot {
+        display: flex;
+
+    }
+
+    .left-foot h2 {
+        display: flex;
+        font-size: 35px;
+        font-family: 'Lobster';
+        font-weight: 900;
+        color: gold;
+        margin: 0;
+    }
+
+    .middle-foot {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: gold;
+        font-size: 14px;
+    }
+
+    .right-foot {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 25%;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+        height: 100vh;
+        background-color: black;
+    }
+
+    header {
+        display: flex;
+        position: fixed;
+        width: 100%;
+        padding: 50px 40px;
+        height: 60px;
+        background-color: black;
+    }
+
+
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .left-nav {
+        display: flex;
+        width: 30%;
+        align-items: center;
+        justify-content: left;
+    }
+
+    .left-nav h1 {
+        display: flex;
+        font-size: 35px;
+        font-family: 'Lobster';
+        font-weight: 900;
+        color: gold;
+    }
+
+    .right-nav {
+        display: flex;
+        width: 55%;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .right-nav a {
+        display: flex;
+        text-decoration: none;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: gold;
+        font-size: 14px;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        padding: 40px;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .cont1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding-bottom: 250px;
+    }
+
+
+    .left-grid {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .slackimg {
+        display: flex;
+        width: auto;
+        max-width: 100%;
+    }
+
+    .slackdetails {
+        font-size: 16px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: aliceblue;
+    }
+
+    .right-grid {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .intro {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .name {
+        color: aliceblue;
+        font-size: 50px;
+        font-family: 'Beiruti';
+        font-weight: 200;
+        width: 100%;
+        margin: 0;
+
+    }
+
+    .front {
+        color: gold;
+        font-size: 50px;
+        font-family: 'Beiruti';
+        font-weight: 200;
+    }
+
+    .goals {
+        color: white;
+        font-size: 16px;
+        font-family: 'Beiruti';
+        width: 100%;
+        margin: 0;
+        padding: 10px;
+    }
+
+    .cont2 {
+        display: grid;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .l-goals {
+        display: flex;
+        flex-direction: column;
+    }
+
+    h4 {
+        display: flex;
+        color: aliceblue;
+        font-size: 26px;
+        font-family: 'Beiruti';
+        margin: 0;
+    }
+
+    .learn {
+        display: flex;
+        color: aliceblue;
+        font-size: 14px;
+    }
+
+    .goals-list {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .p-goals {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .personal {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    ul {
+        color: aliceblue;
+    }
+
+    .c-goals {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .career {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .pr-goals {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .project-list {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 5px 40px;
+    }
+
+    .footnav {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+        width: 100%;
+
+    }
+
+    .left-foot {
+        display: flex;
+
+    }
+
+    .left-foot h2 {
+        display: flex;
+        font-size: 35px;
+        font-family: 'Lobster';
+        font-weight: 900;
+        color: gold;
+        margin: 0;
+    }
+
+    .middle-foot {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: gold;
+        font-size: 14px;
+    }
+
+    .right-foot {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 25%;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+        height: 100vh;
+        background-color: black;
+    }
+
+    header {
+        display: flex;
+        position: fixed;
+        width: 100%;
+        padding: 50px 40px;
+        height: 60px;
+        background-color: black;
+    }
+
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .left-nav {
+        display: flex;
+        width: 30%;
+        align-items: center;
+        justify-content: left;
+    }
+
+    .left-nav h1 {
+        display: flex;
+        font-size: 25px;
+        font-family: 'Lobster';
+        font-weight: 900;
+        color: gold;
+    }
+
+    .right-nav {
+        display: flex;
+        width: 80%;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .right-nav a {
+        display: flex;
+        text-decoration: none;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: gold;
+        font-size: 12px;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        padding: 40px;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .cont1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding-bottom: 250px;
+        padding-top: 100px;
+    }
+
+
+    .left-grid {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .slackimg {
+        display: flex;
+        width: auto;
+        max-width: 100%;
+    }
+
+    .slackdetails {
+        font-size: 16px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: aliceblue;
+    }
+
+    .right-grid {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .intro {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .name {
+        color: aliceblue;
+        font-size: 40px;
+        font-family: 'Beiruti';
+        font-weight: 200;
+        width: 100%;
+        margin: 0;
+
+    }
+
+    .front {
+        color: gold;
+        font-size: 40px;
+        font-family: 'Beiruti';
+        font-weight: 200;
+    }
+
+    .goals {
+        color: white;
+        font-size: 16px;
+        font-family: 'Beiruti';
+        width: 100%;
+        margin: 0;
+        padding: 10px;
+    }
+
+    .cont2 {
+        display: grid;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .l-goals {
+        display: flex;
+        flex-direction: column;
+    }
+
+    h4 {
+        display: flex;
+        color: aliceblue;
+        font-size: 26px;
+        font-family: 'Beiruti';
+        margin: 0;
+    }
+
+    .learn {
+        display: flex;
+        color: aliceblue;
+        font-size: 14px;
+    }
+
+    .goals-list {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .p-goals {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .personal {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    ul {
+        color: aliceblue;
+    }
+
+    .c-goals {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .career {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .pr-goals {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .project-list {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 5px 40px;
+    }
+
+    .footnav {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+        width: 100%;
+
+    }
+
+    .left-foot {
+        display: flex;
+
+    }
+
+    .left-foot h2 {
+        display: flex;
+        font-size: 25px;
+        font-family: 'Lobster';
+        font-weight: 900;
+        color: gold;
+        margin: 0;
+    }
+
+    .middle-foot {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: gold;
+        font-size: 12px;
+    }
+
+    .right-foot {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 35%;
+    }
+
+}
+
+@media screen and (max-width: 380px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+        height: 100vh;
+        background-color: black;
+    }
+
+    header {
+        display: flex;
+        position: fixed;
+        width: 100%;
+        padding: 50px 40px;
+        height: 60px;
+        background-color: black;
+    }
+
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .left-nav {
+        display: flex;
+        width: 30%;
+        align-items: center;
+        justify-content: left;
+    }
+
+    .left-nav h1 {
+        display: flex;
+        font-size: 25px;
+        font-family: 'Lobster';
+        font-weight: 900;
+        color: gold;
+    }
+
+    .right-nav {
+        display: flex;
+        width: 90%;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .right-nav a {
+        display: flex;
+        text-decoration: none;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: gold;
+        font-size: 12px;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        padding: 50px 40px;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .cont1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding-bottom: 250px;
+    }
+
+
+    .left-grid {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .slackimg {
+        display: flex;
+        width: auto;
+        max-width: 100%;
+    }
+
+    .slackdetails {
+        font-size: 16px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: aliceblue;
+    }
+
+    .right-grid {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .intro {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .name {
+        color: aliceblue;
+        font-size: 40px;
+        font-family: 'Beiruti';
+        font-weight: 200;
+        width: 100%;
+        margin: 0;
+
+    }
+
+    .front {
+        color: gold;
+        font-size: 40px;
+        font-family: 'Beiruti';
+        font-weight: 200;
+    }
+
+    .goals {
+        color: white;
+        font-size: 16px;
+        font-family: 'Beiruti';
+        width: 100%;
+        margin: 0;
+        padding: 10px;
+    }
+
+    .cont2 {
+        display: grid;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .l-goals {
+        display: flex;
+        flex-direction: column;
+    }
+
+    h4 {
+        display: flex;
+        color: aliceblue;
+        font-size: 26px;
+        font-family: 'Beiruti';
+        margin: 0;
+    }
+
+    .learn {
+        display: flex;
+        color: aliceblue;
+        font-size: 14px;
+    }
+
+    .goals-list {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .p-goals {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .personal {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    ul {
+        color: aliceblue;
+    }
+
+    .c-goals {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .career {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .pr-goals {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .project-list {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 5px 40px;
+    }
+
+    .footnav {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+        width: 100%;
+
+    }
+
+    .left-foot {
+        display: flex;
+
+    }
+
+    .left-foot h2 {
+        display: flex;
+        font-size: 25px;
+        font-family: 'Lobster';
+        font-weight: 900;
+        color: gold;
+        margin: 0;
+    }
+
+    .middle-foot {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: gold;
+        font-size: 10px;
+    }
+
+    .right-foot {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 35%;
+    }
+
 }
