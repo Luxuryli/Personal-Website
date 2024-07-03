@@ -73,8 +73,8 @@ main {
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    padding-bottom: 250px;
-    margin-top: 50px;
+    padding-bottom: 350px;
+    margin-top: 150px;
 }
 
 
@@ -130,8 +130,7 @@ main {
 
 .goals {
     color: white;
-    font-size: 24px;
-    font-family: 'Beiruti';
+    font-size: 18px;
     width: 73.5%;
     margin: 0;
     padding: 10px;
@@ -380,8 +379,7 @@ footer {
 
     .goals {
         color: white;
-        font-size: 18px;
-        font-family: 'Beiruti';
+        font-size: 14px;
         width: 65%;
         margin: 0;
         padding: 10px;
@@ -561,7 +559,7 @@ footer {
         text-decoration: none;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         color: gold;
-        font-size: 14px;
+        font-size: 13px;
     }
 
     main {
@@ -634,8 +632,7 @@ footer {
 
     .goals {
         color: white;
-        font-size: 18px;
-        font-family: 'Beiruti';
+        font-size: 13px;
         width: 85%;
         margin: 0;
         padding: 10px;
@@ -665,7 +662,7 @@ footer {
     .learn {
         display: flex;
         color: aliceblue;
-        font-size: 14px;
+        font-size: 13px;
     }
 
     .goals-list {
@@ -678,7 +675,7 @@ footer {
         display: flex;
         flex-direction: column;
         width: 30%;
-        font-size: 14px;
+        font-size: 13px;
     }
 
     .personal {
@@ -695,7 +692,7 @@ footer {
         display: flex;
         flex-direction: column;
         width: 35%;
-        font-size: 14px;
+        font-size: 13px;
     }
 
     .career {
@@ -708,7 +705,7 @@ footer {
         display: flex;
         flex-direction: column;
         width: 30%;
-        font-size: 14px;
+        font-size: 13px;
     }
 
     .project-list {
@@ -832,7 +829,7 @@ footer {
         justify-content: space-between;
         align-items: center;
         width: 100%;
-        padding-bottom: 250px;
+        padding-bottom: 30px;
     }
 
 
@@ -888,8 +885,7 @@ footer {
 
     .goals {
         color: white;
-        font-size: 16px;
-        font-family: 'Beiruti';
+        font-size: 13px;
         width: 90%;
         margin: 0;
         padding: 10px;
@@ -919,7 +915,7 @@ footer {
     .learn {
         display: flex;
         color: aliceblue;
-        font-size: 14px;
+        font-size: 13px;
     }
 
     .goals-list {
@@ -933,7 +929,7 @@ footer {
         display: flex;
         flex-direction: column;
         width: 100%;
-        font-size: 14px;
+        font-size: 13px;
     }
 
     .personal {
@@ -950,7 +946,7 @@ footer {
         display: flex;
         flex-direction: column;
         width: 100%;
-        font-size: 14px;
+        font-size: 13px;
     }
 
     .career {
@@ -963,7 +959,7 @@ footer {
         display: flex;
         flex-direction: column;
         width: 100%;
-        font-size: 14px;
+        font-size: 13px;
     }
 
     .project-list {
@@ -1089,7 +1085,7 @@ footer {
         justify-content: space-between;
         align-items: center;
         width: 100%;
-        padding-bottom: 250px;
+        padding-bottom: 20px;
     }
 
 
@@ -1145,8 +1141,7 @@ footer {
 
     .goals {
         color: white;
-        font-size: 16px;
-        font-family: 'Beiruti';
+        font-size: 13px;
         width: 90%;
         margin: 0;
         padding: 10px;
@@ -1176,7 +1171,7 @@ footer {
     .learn {
         display: flex;
         color: aliceblue;
-        font-size: 14px;
+        font-size: 13px;
     }
 
     .goals-list {
@@ -1190,7 +1185,7 @@ footer {
         display: flex;
         flex-direction: column;
         width: 100%;
-        font-size: 14px;
+        font-size: 13px;
     }
 
     .personal {
@@ -1207,7 +1202,7 @@ footer {
         display: flex;
         flex-direction: column;
         width: 100%;
-        font-size: 14px;
+        font-size: 13px;
     }
 
     .career {
@@ -1220,7 +1215,7 @@ footer {
         display: flex;
         flex-direction: column;
         width: 100%;
-        font-size: 14px;
+        font-size: 13px;
     }
 
     .project-list {
@@ -1348,7 +1343,7 @@ footer {
         justify-content: space-between;
         align-items: center;
         width: 100%;
-        padding-bottom: 250px;
+        padding-bottom: 20px;
     }
 
 
@@ -1404,8 +1399,7 @@ footer {
 
     .goals {
         color: white;
-        font-size: 16px;
-        font-family: 'Beiruti';
+        font-size: 13px;
         width: 100%;
         margin: 0;
         padding: 10px;
@@ -1435,7 +1429,7 @@ footer {
     .learn {
         display: flex;
         color: aliceblue;
-        font-size: 14px;
+        font-size: 13px;
     }
 
     .goals-list {
@@ -1449,7 +1443,7 @@ footer {
         display: flex;
         flex-direction: column;
         width: 100%;
-        font-size: 14px;
+        font-size: 13px;
     }
 
     .personal {
@@ -1466,7 +1460,7 @@ footer {
         display: flex;
         flex-direction: column;
         width: 100%;
-        font-size: 14px;
+        font-size: 13px;
     }
 
     .career {
@@ -1479,7 +1473,7 @@ footer {
         display: flex;
         flex-direction: column;
         width: 100%;
-        font-size: 14px;
+        font-size: 13px;
     }
 
     .project-list {
@@ -1607,7 +1601,7 @@ footer {
         justify-content: space-between;
         align-items: center;
         width: 100%;
-        padding-bottom: 250px;
+        padding-bottom: 20px;
     }
 
 
@@ -1663,8 +1657,7 @@ footer {
 
     .goals {
         color: white;
-        font-size: 16px;
-        font-family: 'Beiruti';
+        font-size: 13px;
         width: 100%;
         margin: 0;
         padding: 10px;
@@ -1694,7 +1687,7 @@ footer {
     .learn {
         display: flex;
         color: aliceblue;
-        font-size: 14px;
+        font-size: 13px;
     }
 
     .goals-list {
@@ -1708,7 +1701,7 @@ footer {
         display: flex;
         flex-direction: column;
         width: 100%;
-        font-size: 14px;
+        font-size: 13px;
     }
 
     .personal {
@@ -1725,7 +1718,7 @@ footer {
         display: flex;
         flex-direction: column;
         width: 100%;
-        font-size: 14px;
+        font-size: 13px;
     }
 
     .career {
@@ -1738,7 +1731,7 @@ footer {
         display: flex;
         flex-direction: column;
         width: 100%;
-        font-size: 14px;
+        font-size: 13px;
     }
 
     .project-list {
@@ -1907,7 +1900,7 @@ footer {
 
     .name {
         color: aliceblue;
-        font-size: 40px;
+        font-size: 55px;
         font-family: 'Beiruti';
         font-weight: 200;
         width: 100%;
@@ -1917,15 +1910,14 @@ footer {
 
     .front {
         color: gold;
-        font-size: 40px;
+        font-size: 55px;
         font-family: 'Beiruti';
         font-weight: 200;
     }
 
     .goals {
         color: white;
-        font-size: 16px;
-        font-family: 'Beiruti';
+        font-size: 12px;
         width: 100%;
         margin: 0;
         padding: 10px;
@@ -1955,7 +1947,7 @@ footer {
     .learn {
         display: flex;
         color: aliceblue;
-        font-size: 14px;
+        font-size: 12px;
     }
 
     .goals-list {
@@ -1969,7 +1961,7 @@ footer {
         display: flex;
         flex-direction: column;
         width: 100%;
-        font-size: 14px;
+        font-size: 12px;
     }
 
     .personal {
@@ -1986,7 +1978,7 @@ footer {
         display: flex;
         flex-direction: column;
         width: 100%;
-        font-size: 14px;
+        font-size: 12px;
     }
 
     .career {
@@ -1999,7 +1991,7 @@ footer {
         display: flex;
         flex-direction: column;
         width: 100%;
-        font-size: 14px;
+        font-size: 12px;
     }
 
     .project-list {
@@ -2168,7 +2160,7 @@ footer {
 
     .name {
         color: aliceblue;
-        font-size: 40px;
+        font-size: 50px;
         font-family: 'Beiruti';
         font-weight: 200;
         width: 100%;
@@ -2178,15 +2170,14 @@ footer {
 
     .front {
         color: gold;
-        font-size: 40px;
+        font-size: 50px;
         font-family: 'Beiruti';
         font-weight: 200;
     }
 
     .goals {
         color: white;
-        font-size: 16px;
-        font-family: 'Beiruti';
+        font-size: 12px;
         width: 100%;
         margin: 0;
         padding: 10px;
@@ -2216,7 +2207,7 @@ footer {
     .learn {
         display: flex;
         color: aliceblue;
-        font-size: 14px;
+        font-size: 12px;
     }
 
     .goals-list {
@@ -2230,7 +2221,7 @@ footer {
         display: flex;
         flex-direction: column;
         width: 100%;
-        font-size: 14px;
+        font-size: 12px;
     }
 
     .personal {
@@ -2247,7 +2238,7 @@ footer {
         display: flex;
         flex-direction: column;
         width: 100%;
-        font-size: 14px;
+        font-size: 12px;
     }
 
     .career {
@@ -2260,7 +2251,7 @@ footer {
         display: flex;
         flex-direction: column;
         width: 100%;
-        font-size: 14px;
+        font-size: 12px;
     }
 
     .project-list {
