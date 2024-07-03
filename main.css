@@ -1867,8 +1867,8 @@ footer {
         justify-content: space-between;
         align-items: center;
         width: 100%;
-        padding-bottom: 250px;
-        padding-top: 100px;
+        padding-bottom: 20px;
+        padding-top: 40px;
     }
 
 
@@ -2012,7 +2012,7 @@ footer {
         display: flex;
         flex-direction: column;
         width: 100%;
-        padding: 5px 40px;
+        padding: 20px 40px;
     }
 
     .footnav {
@@ -2128,7 +2128,8 @@ footer {
         justify-content: space-between;
         align-items: center;
         width: 100%;
-        padding-bottom: 250px;
+        padding-bottom: 10px;
+        margin-top: 0;
     }
 
 
@@ -2272,7 +2273,7 @@ footer {
         display: flex;
         flex-direction: column;
         width: 100%;
-        padding: 5px 40px;
+        padding: 20px 40px;
     }
 
     .footnav {
