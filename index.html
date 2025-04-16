@@ -7,6 +7,7 @@
     <title>My Personal Website</title>
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="main.js">
+    <link rel="icon" type="image/png" href="Img/favicon.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Playwrite+IT+Moderna:wght@100..400&display=swap"
@@ -14,6 +15,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Beiruti:wght@200..900&display=swap" rel="stylesheet">
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -177,51 +184,61 @@
         <section class="project-section">
             <h2 style="text-align: center; margin-top: 40px;">Portfolio Projects</h2>
             <div class="projects-container">
-                <div class="project">
+                <div class="project" data-aos="fade-up">
                     <h3>Conference Ticket Generator</h3>
                     <p>Built with Next.js and Tailwind CSS. A responsive ticketing app for selecting and generating custom conference tickets.</p>
                     <a href="https://conference-ticket-generator-mocha.vercel.app" target="_blank">Live Demo</a>
                 </div>
-                <div class="project">
+                <div class="project" data-aos="fade-up">
                     <h3>AI Chat App</h3>
                     <p>React app using Google APIs for summarization, translation, and language detection.</p>
                     <a href="https://ai-chat-app-eight-chi.vercel.app" target="_blank">Live Demo</a>
                 </div>
-                <div class="project">
+                <div class="project" data-aos="fade-up">
                     <h3>Sign-Up Form</h3>
                     <p>A simple sign-up form with form validation and UI logic using HTML, CSS, and JavaScript.</p>
                     <a href="https://luxuryli.github.io/Side-Hustle/" target="_blank">Live Demo</a>
                 </div>
-                <div class="project">
+                <div class="project" data-aos="fade-up">
                     <h3>Apple Beta Website Clone</h3>
                     <p>Clean and responsive clone of an Apple beta website using only HTML and CSS.</p>
                     <a href="https://luxuryli.github.io/ipws-project/" target="_blank">Live Demo</a>
                 </div>
-                <div class="project">
+                <div class="project" data-aos="fade-up">
                     <h3>Zuri Intern Page</h3>
                     <p>Landing page mockup built with HTML, CSS, and JavaScript for the Zuri internship.</p>
                     <a href="https://luxuryli.github.io/Zuri-Project/" target="_blank">Live Demo</a>
                 </div>
-                <div class="project">
+                <div class="project" data-aos="fade-up">
                     <h3>Frontend Calculator</h3>
                     <p>Simple calculator with basic JavaScript logic and clean layout.</p>
                     <a href="https://luxuryli.github.io/Frontend-Calculator-Project/" target="_blank">Live Demo</a>
                 </div>
-                <div class="project">
+                <div class="project" data-aos="fade-up">
                     <h3>Color Guessing Game</h3>
                     <p>Fun RGB color guessing game built in React.</p>
                     <a href="https://color-guessing-game-alpha.vercel.app" target="_blank">Live Demo</a>
                 </div>
-                <div class="project">
+                <div class="project" data-aos="fade-up">
                     <h3>Mini Online Store</h3>
                     <p>React-based store interface fetching product data from the Timbu API.</p>
                     <a href="https://mini-online-store-lovat.vercel.app" target="_blank">Live Demo</a>
                 </div>
-                <div class="project">
+                <div class="project" data-aos="fade-up">
                     <h3>Fylo Landing Page</h3>
                     <p>Pixel-perfect HTML and CSS landing page inspired by the Fylo design challenge.</p>
                     <a href="https://luxuryli.github.io/fylo-landing-page/" target="_blank">Live Demo</a>
                 </div>
+            </div>
+        </section>
+        
+        <section class="contact-section">
+            <h2 style="text-align: center; color: gold;">Get In Touch</h2>
+            <p style="text-align: center; color: #ccc; max-width: 600px; margin: 0 auto 20px;">
+                Whether you have a question, a project idea, or just want to say hi, feel free to reach out.
+            </p>
+            <div style="text-align: center;">
+                <a href="mailto:olakutope4@gmail.com" style="display: inline-block; background-color: gold; color: #1e1e1e; padding: 10px 20px; border-radius: 5px; font-weight: bold; text-decoration: none; font-size: 16px;">Email Me</a>
             </div>
         </section>
     </main>
@@ -250,6 +267,10 @@
         </div>
     </footer>
     <script src="main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
